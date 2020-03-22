@@ -12,9 +12,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/colorPrimaryDark"
-        android:text=" Name :- Tajudeen wariz "
+        android:text="@string/full_name"
         android:textColor="@android:color/white"
-        android:textSize="25dp"
+        android:textSize="28sp"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.427"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -23,61 +24,49 @@
         app:layout_constraintVertical_bias="0.299" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="84dp"
-        android:layout_height="25dp"
-        android:layout_marginTop="96dp"
-        android:layout_marginBottom="40dp"
-        android:background="@color/colorPrimaryDark"
-        android:text="HNG TASK1"
-        android:textColor="@android:color/white"
-        app:layout_constraintBottom_toTopOf="@+id/ntxt"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.452"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/usertxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:background="@color/colorPrimaryDark"
-        android:text=" Slack Username:- Bidex160 "
+        android:text="@string/Slach_username"
         android:textColor="@android:color/white"
-        android:textSize="25dp"
+        android:textSize="28sp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.443"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ntxt" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/mailtxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:background="@color/colorPrimaryDark"
-        android:text="Start.NG E-mail :- thabidemi@gmail.com"
+        android:text="@string/Slack_mail"
 
         android:textColor="@android:color/white"
-        android:textSize="23dp"
+        android:textSize="28sp"
+        android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/usertxt" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tasktxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
-        android:text=" Tracks:- Mobile(Java , Kotlin) "
+        android:text="@string/Task"
         android:background="@color/colorPrimaryDark"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        android:textSize="25dp"
+        android:textSize="28sp"
+        android:gravity="center"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/mailtxt" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
